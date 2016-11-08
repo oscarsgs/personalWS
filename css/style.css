@@ -1,0 +1,53 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+@media (min-width: 768px) {
+	#main-heading{
+		margin-top: 2em;
+	}
+	#main-heading{
+		margin-bottom: 2em;
+	}
+	#main-title{
+		margin-top: 1em;
+		text-align: right;
+	}
+	#introduction{
+		margin-top:3em;
+		margin-bottom: 2em;
+	}
+}
+
+@media (max-width: 767px) {
+	#main-heading{
+		text-align: center;
+	}
+	#main-logo{
+		margin-top: 1em;
+	}
+}
+
+
+#main-logo{
+	
+}
+#main-logo-xs{
+
+}
+
+.img-thumbnail-project{
+	max-width: 250px;
+	max-height: 250px;
+	display:block;
+    margin:1em auto 1em auto;
+}
+
+.thumbnail-project h3{
+  color: #00584e;
+}
+#photo-id{
+	border-radius:50%;
+	height:10em;
+	box-shadow:0 0 8px; rgba(0,0,0,0.8);
+}
+
