@@ -14,6 +14,29 @@
 	<title>Oscar Garcia-Saldarriaga - Web Developer</title>
 </head>
 <body>
+	<!-- MODALS -->
+	<div class="modal fade" id="project-1-modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Project Eins</h4>
+      </div>
+      <div class="modal-body">
+        <img src="http://placekitten.com/260/260" alt="One of the projects" class="img-responsive img-thumbnail-project img-thumbnail row">
+        <p class="text-center">This is Project Eins. The first project of a set of N</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-- END MODALS -->
+
+
+
 	<div id="main-container" class="container">
 		<header id="main-heading" class="row">
 			<nav>
@@ -35,7 +58,7 @@
 		<section id="container-project" class="row text-center">
 		<h3 class="text-primary text-uppercase">Projects</h3>
 			<article class="thumbnail-project col-md-4 col-sm-6 col-xs-12 col-lg-4">
-				<img src="http://placekitten.com/260/260" alt="One of the projects" class="img-responsive img-thumbnail-project img-thumbnail row">
+				<a href="#" data-toggle="modal" data-target="#project-1-modal"><img src="http://placekitten.com/260/260" alt="One of the projects" class="img-responsive img-thumbnail-project img-thumbnail row"></a>
 				<h3>Project Eins</h3>
 				<p>This is the first project</p>
 
@@ -71,7 +94,7 @@
 			<h5 class="text-center text-muted text-primary col-md-6 col-md-offset-3">&copy; 2016 Oscar Garcia-Saldarriaga</h5>
 		</footer>
 	</div>
-
+	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
