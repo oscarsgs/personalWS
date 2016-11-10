@@ -13,5 +13,5 @@ gulp.task('browser-sync', function() {
 
 gulp.task('default', function() {
   // place code for your default task here
-  console.log("Hola mundo");
+  
 });
