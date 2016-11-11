@@ -11,7 +11,4 @@ gulp.task('serve', function() {
     gulp.watch("css/*.css").on('change',browserSync.reload);
 });
 
-gulp.task('default', function() {
-  // place code for your default task here
-  
-});
+gulp.task('default', ['serve']);
